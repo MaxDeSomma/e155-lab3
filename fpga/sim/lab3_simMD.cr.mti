@@ -1,0 +1,43 @@
+C:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module sevenSegment
+
+Top level modules:
+	sevenSegment
+
+} {} {}} C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module buttonFSMTB
+
+Top level modules:
+	buttonFSMTB
+
+} {} {}} C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoderTB.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoderTB.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module buttonDecoderTB
+
+Top level modules:
+	buttonDecoderTB
+
+} {} {}} C:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module ledController
+
+Top level modules:
+	ledController
+
+} {} {}} C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSM.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSM.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module buttonFSM
+
+Top level modules:
+	buttonFSM
+
+} {} {}} C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv {1 {vlog -work work -sv -stats=none C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv
+Model Technology ModelSim - Lattice FPGA Edition vlog 2021.4 Compiler 2021.10 Oct 14 2021
+-- Compiling module buttonDecoder
+
+Top level modules:
+	buttonDecoder
+
+} {} {}}
