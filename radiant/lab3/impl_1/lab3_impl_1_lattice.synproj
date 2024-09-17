@@ -36,18 +36,19 @@
 -use_io_insertion 1
 
 -resolve_mixed_drivers 0
--path "C:/lscc/radiant/2024.1/ispfpga/ice40tp/data" "C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3/impl_1" "C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3"
+-path "C:/lscc/radiant/2024.1/ispfpga/ice40tp/data" "C:/Users/mdesomma/Documents/lab3/radiant/lab3/impl_1" "C:/Users/mdesomma/Documents/lab3/radiant/lab3"
 -ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/mdesomma/Documents/e155-lab3/fpga/src/Lab3_MD.sv"
-"C:/Users/mdesomma/Documents/e155-lab3/fpga/src/buttonFSM.sv"
-"C:/Users/mdesomma/Documents/e155-lab3/fpga/src/lab3_Master.sv"
-"C:/Users/mdesomma/Documents/e155-lab3/fpga/src/buttonDecoder.sv"
-"C:/Users/mdesomma/Documents/e155-lab3/fpga/src/ledController.sv"
-"C:/Users/mdesomma/Documents/e155-lab3/fpga/src/sevenSegment.sv"
+-sver "C:/Users/mdesomma/Documents/lab3/fpga/src/Lab3_MD.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/buttonFSM.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/lab3_Master.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/buttonDecoder.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/ledController.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/sevenSegment.sv"
+"C:/Users/mdesomma/Documents/lab3/fpga/src/synchronizer.sv"
 
 
--path "C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3"
+-path "C:/Users/mdesomma/Documents/lab3/radiant/lab3"
 -top lab3_MD
 -udb "lab3_impl_1_rtl.udb"
 -output_hdl "lab3_impl_1.vm"

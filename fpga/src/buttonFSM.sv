@@ -9,6 +9,7 @@ module buttonFSM(
 	logic [3:0] state, nextState, s;
 	logic buttonPressed;
     logic en;
+	logic [24:0] counter = 0;
 
     // defining states
 	parameter S0 = 4'b0000;
@@ -25,9 +26,14 @@ module buttonFSM(
 	parameter S11 = 4'b1011;
 
     // FSM logic
-	always_ff @(posedge clk, posedge reset) begin
+	always_ff @(posedge clk) begin  //putback reset if needed
 		if (reset) state <= S0;
 		else state <= nextState;
+			
+		if((state == S2) | (state == S5) | (state == S8) | (state == S11)) begin
+			counter <= counter + 1;
+		end
+		else counter <= 0;
 	end
 
     // checking if any button is pressed
@@ -75,9 +81,11 @@ module buttonFSM(
 				else nextState = S0;
 			S11: if(buttonPressed) nextState = S11;
 				else nextState = S0;
+					
+			default: nextState = S0;
 		endcase
 
     // figure out what number is clicked
 	buttonDecoder a3(c,r,s);
-	ledController a4(clk,reset,s,en,seg,led1,led2);
+	ledController a4(clk,reset,counter, s,en,seg,led1,led2);
 endmodule

@@ -49,24 +49,23 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2024.1.0.34.2
-Mapped on: Mon Sep 16 15:10:56 2024
+Mapped on: Tue Sep 17 10:45:18 2024
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
 Command line:   map -pdc
-     C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3/pinLayout.pdc -i
+     C:/Users/mdesomma/Documents/lab3/radiant/lab3/pinLayout.pdc -i
      lab3_impl_1_syn.udb -o lab3_impl_1_map.udb -mp lab3_impl_1.mrp -hierrpt
-     -gui -msgset C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3/promote.xml
+     -gui -msgset C:/Users/mdesomma/Documents/lab3/radiant/lab3/promote.xml
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
 
-   Number of slice registers:  76 out of  5280 (1%)
-   Number of I/O registers:      4 out of   117 (3%)
-   Number of LUT4s:           171 out of  5280 (3%)
-      Number of logic LUT4s:             103
-      Number of inserted feedthru LUT4s:  12
-      Number of replicated LUT4s:          4
-      Number of ripple logic:             26 (52 LUT4s)
+   Number of slice registers: 103 out of  5280 (2%)
+   Number of I/O registers:      0 out of   117 (0%)
+   Number of LUT4s:           187 out of  5280 (4%)
+      Number of logic LUT4s:             105
+      Number of inserted feedthru LUT4s:   4
+      Number of ripple logic:             39 (78 LUT4s)
    Number of IO sites used:   18 out of 39 (46%)
       Number of IO sites used for general PIO: 18
       Number of IO sites used for I3C: 0 out of 2 (0%)
@@ -90,27 +89,28 @@ Command line:   map -pdc
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  2
       Net int_osc: 14 loads, 14 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
-      Net a1.toggle: 42 loads, 42 rising, 0 falling (Driver: Pin a1.toggle_c/Q)
+      Net a1.toggle: 53 loads, 53 rising, 0 falling (Driver: Pin a1.toggle_c/Q)
    Number of Clock Enables:  3
       Net VCC_net: 1 loads, 0 SLICEs
-      Net a1.a2.a4.n544: 8 loads, 8 SLICEs
-      Net a1.a2.a4.n533: 4 loads, 4 SLICEs
-   Number of LSRs:  4
-      Net a1.n566: 13 loads, 13 SLICEs
-      Net a1.reset_c_N_103: 4 loads, 4 SLICEs
-      Net a1.a2.a4.n565: 8 loads, 8 SLICEs
-      Net a1.a2.a4.n533: 13 loads, 13 SLICEs
+      Net a1.a2.synced.a4.n485: 4 loads, 4 SLICEs
+      Net a1.a2.synced.a4.n496: 8 loads, 8 SLICEs
+   Number of LSRs:  5
+      Net a1.n504: 13 loads, 13 SLICEs
+      Net a1.a2.synced.n500: 13 loads, 13 SLICEs
+      Net a1.a2.synced.state_FSM_illegal: 12 loads, 12 SLICEs
+      Net a1.a2.synced.a4.n485: 13 loads, 13 SLICEs
+      Net a1.a2.synced.a4.n503: 8 loads, 8 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net a1.a2.state[2]: 30 loads
-      Net a1.a2.state[3]: 24 loads
-      Net a1.a2.state[1]: 23 loads
-      Net a1.a2.a4.n533: 18 loads
-      Net a1.a2.state[0]: 18 loads
-      Net a1.n566: 14 loads
-      Net a1.c3[1]: 13 loads
-      Net a1.c3[2]: 12 loads
-      Net a1.c3[3]: 12 loads
-      Net a1.c3[0]: 11 loads
+      Net c_c_2: 19 loads
+      Net a1.a2.synced.a4.n485: 18 loads
+      Net a1.a2.synced.n468: 15 loads
+      Net a1.n504: 14 loads
+      Net a1.a2.synced.n500: 13 loads
+      Net a1.a2.synced.state_FSM_illegal: 12 loads
+      Net a1.a2.synced.a4.n496: 8 loads
+      Net a1.a2.synced.a4.n503: 8 loads
+      Net a1.a2.synced.r_c_3_N_93[5]: 8 loads
+      Net a1.a2.synced.r_c_3_N_93[7]: 8 loads
 
    Number of warnings:  0
    Number of criticals: 0
@@ -126,13 +126,13 @@ Command line:   map -pdc
 | IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
 |                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| c[0]                | INPUT     |           | I     |       |           |
+| c[0]                | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| c[1]                | INPUT     |           | I     |       |           |
+| c[1]                | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| c[2]                | INPUT     |           | I     |       |           |
+| c[2]                | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| c[3]                | INPUT     |           | I     |       |           |
+| c[3]                | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | reset               | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -180,14 +180,6 @@ OSC 1:                                 Pin/Node Value
 
 Instance Name: hf_osc
          Type: HFOSC
-Instance Name: a1/c1_i0
-         Type: IOLOGIC
-Instance Name: a1/c1_i1
-         Type: IOLOGIC
-Instance Name: a1/c1_i2
-         Type: IOLOGIC
-Instance Name: a1/c1_i3
-         Type: IOLOGIC
 
 <A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
 
@@ -199,7 +191,7 @@ Instance Name: a1/c1_i3
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
    Peak Memory Usage: 66 MB
-Checksum -- map: 903779eea6d56ca0174f3db2bde2e7e38263192f
+Checksum -- map: b69dc81542faa1d0754bc99ae877c478ee7e78d9
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

@@ -17,16 +17,7 @@ module lab3_Master(
 					toggle <= ~toggle;
 			end
 		end
-
-	always_ff @(posedge toggle) begin
-		c1<=c;
-	end
-	always_ff @(posedge toggle) begin
-		c2<=c1;
-	end
-	always_ff @(posedge toggle) begin
-		c3<=c2;
-	end
+		
 	assign reset = ~resetInv;
-	buttonFSM a2 (toggle, reset, c3, seg, r, led1, led2);
+	synchronizer a2 (toggle, reset, c, r, seg, led1, led2);
 endmodule

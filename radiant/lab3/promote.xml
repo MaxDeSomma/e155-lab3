@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<userSetting name="C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3/promote.xml" version="Diamond (64-bit) 2024.1.0.34.2" date="Mon Sep 16 15:11:15 2024" vendor="Lattice Semiconductor Corporation" >
-  <msg mid="35901899" type="Warning" internal="true" />
+<userSetting name="C:/Users/mdesomma/Documents/lab3/radiant/lab3/promote.xml" version="Diamond (64-bit) 2024.1.0.34.2" date="Tue Sep 17 10:45:37 2024" vendor="Lattice Semiconductor Corporation" >
   <msg mid="35901328" type="Info" internal="true" />
   <msg mid="35921504" type="Info" internal="true" />
-  <msg mid="35901209" type="Warning" internal="true" />
-  <msg mid="35901138" type="Error" internal="true" />
   <msg mid="35902086" type="Error" internal="true" />
+  <msg mid="35901209" type="Warning" internal="true" />
+  <msg mid="35901899" type="Warning" internal="true" />
+  <msg mid="35901138" type="Error" internal="true" />
+  <msg mid="35931002" type="Warning" internal="true" />
 </userSetting>

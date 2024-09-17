@@ -336,14 +336,14 @@
             <ID>35921504</ID>
             <Severity>1</Severity>
             <Dynamic></Dynamic>
-            <Dynamic>C:/Users/mdesomma/Documents/e155-lab3/radiant/lab3/impl_1</Dynamic>
+            <Dynamic>C:/Users/mdesomma/Documents/lab3/radiant/lab3/impl_1</Dynamic>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_md.sv(1): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/lab3_md.sv(1): </Dynamic>
             <Dynamic>lab3_MD</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_md.sv</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/lab3_md.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
@@ -357,91 +357,94 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_master.sv(1): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/lab3_master.sv(1): </Dynamic>
             <Dynamic>lab3_Master</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_master.sv</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/lab3_master.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_master.sv(14): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/lab3_master.sv(14): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/lab3_master.sv</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/lab3_master.sv</Navigation>
             <Navigation>14</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttonfsm.sv(1): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/synchronizer.sv(1): </Dynamic>
+            <Dynamic>synchronizer</Dynamic>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/synchronizer.sv</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(1): </Dynamic>
             <Dynamic>buttonFSM</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttonfsm.sv</Navigation>
-            <Navigation>1</Navigation>
-        </Message>
-        <Message>
-            <ID>35901899</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttonfsm.sv(78): </Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttonfsm.sv</Navigation>
-            <Navigation>78</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttondecoder.sv(1): </Dynamic>
-            <Dynamic>buttonDecoder</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/buttondecoder.sv</Navigation>
-            <Navigation>1</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/ledcontroller.sv(1): </Dynamic>
-            <Dynamic>ledController</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/ledcontroller.sv</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/ledcontroller.sv(23): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(34): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/ledcontroller.sv</Navigation>
-            <Navigation>23</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv</Navigation>
+            <Navigation>34</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/mdesomma/documents/e155-lab3/fpga/src/sevensegment.sv(8): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/buttondecoder.sv(1): </Dynamic>
+            <Dynamic>buttonDecoder</Dynamic>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/buttondecoder.sv</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(1): </Dynamic>
+            <Dynamic>ledController</Dynamic>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(30): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>25</Dynamic>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv</Navigation>
+            <Navigation>30</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/sevensegment.sv(8): </Dynamic>
             <Dynamic>sevenSegment</Dynamic>
-            <Navigation>c:/users/mdesomma/documents/e155-lab3/fpga/src/sevensegment.sv</Navigation>
+            <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/sevensegment.sv</Navigation>
             <Navigation>8</Navigation>
         </Message>
         <Message>
-            <ID>35001783</ID>
-            <Severity>256</Severity>
-            <Dynamic>\a1/a2/nextState_3__I_19</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001783</ID>
-            <Severity>256</Severity>
-            <Dynamic>\a1/a2/nextState_3__I_18</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001783</ID>
-            <Severity>256</Severity>
-            <Dynamic>\a1/a2/nextState_3__I_17</Dynamic>
-        </Message>
-        <Message>
-            <ID>35001783</ID>
-            <Severity>256</Severity>
-            <Dynamic>\a1/a2/nextState_3__I_0</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002039</ID>
+            <ID>35001774</ID>
             <Severity>1</Severity>
+            <Dynamic>\a1/a2/synced/state</Dynamic>
+            <Dynamic>one-hot</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001775</ID>
+            <Severity>1</Severity>
+            <Dynamic>\a1/a2/synced/state</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001747</ID>
+            <Severity>256</Severity>
+            <Dynamic>\a1/a2/synced/state_FSM</Dynamic>
+            <Dynamic>15, 14, 13, 12</Dynamic>
         </Message>
     </Task>
     <Task name="Export">
