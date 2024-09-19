@@ -1,3 +1,9 @@
+// buttonDecoder.sv
+// Max De Somma
+// mdesomma@g.hmc.edu
+// 9/19/24
+
+// this module takes in a concatenation of the rows and columns and outputs which 4 bit number that corresponds to. 
 module buttonDecoder(
 	input logic [3:0] c,
 	input logic [3:0] r,
