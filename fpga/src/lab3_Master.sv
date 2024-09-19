@@ -1,3 +1,9 @@
+// lab3_Master.sv
+// Max De Somma
+// mdesomma@g.hmc.edu
+// 9/19/24
+
+// this module takes just slows down the 48Mhz clock and inverts the reset as the reset on the board uses a pull up resistor. 
 module lab3_Master(
     input logic clk, resetInv,
 	input logic [3:0] c,
@@ -7,7 +13,6 @@ module lab3_Master(
 	
 );
 	logic reset;
-	logic [3:0] c1,c2,c3;
 	logic [24:0] counter = 0;
 	logic toggle = 0;
 	always_ff @(posedge clk) begin
