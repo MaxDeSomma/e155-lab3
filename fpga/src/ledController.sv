@@ -19,16 +19,15 @@ module ledController(
             end
             if(en) begin
 				canSwitch <= 1;
-
             end
-			if(canSwitch && bounceCounter >= 1000) begin
+			if(canSwitch && bounceCounter >= 10) begin
 				s2 <= s1;
                 s1 <= s;
 				canSwitch <= 0;
 			end
 
-	counter <= counter + 1;
-			if(counter == 102) begin
+			counter <= counter + 1;
+			if(counter == 100) begin
 					counter <= 0;
 					toggle <= ~toggle;
 					// depending on which display shoudl be on assign s to input s1 or s2

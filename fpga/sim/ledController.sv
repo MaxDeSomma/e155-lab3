@@ -21,7 +21,7 @@ module ledController(
             end
 
 	counter <= counter + 1;
-			if(counter == 102416) begin
+			if(counter == 2) begin
 					counter <= 0;
 					toggle <= ~toggle;
 					// depending on which display shoudl be on assign s to input s1 or s2

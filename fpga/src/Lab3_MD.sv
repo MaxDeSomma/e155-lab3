@@ -1,3 +1,9 @@
+// lab3_MD.sv
+// Max De Somma
+// mdesomma@g.hmc.edu
+// 9/19/24
+
+// This is the top module that instantiates the clk and calls the other modules
 module lab3_MD(
     input logic reset,
 	input logic [3:0] c,

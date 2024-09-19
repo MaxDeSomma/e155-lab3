@@ -5,9 +5,9 @@ module buttonFSM(
 	output logic [3:0] r
 );
 
-	logic [3:0] state, nextState, s;
+	logic [3:0] state, nextState, s, rowPressed, colPressed;
 	logic buttonPressed;
-    logic en;
+    	logic en;
 
     // defining states
 	parameter S0 = 4'b0000;
@@ -27,16 +27,24 @@ module buttonFSM(
 	always_ff @(posedge clk, posedge reset) begin
 		if (reset) state <= S0;
 		else state <= nextState;
+		
+		if(en) colPressed <= c;
+		else if (c = 4'b0000) colPressed <= 4'b0000;
 	end
 
     // checking if any button is pressed
 	assign buttonPressed = c[0] | c[1] | c[2] | c[3];
 
-    // power a specific row depending on which state is active
-	assign r[0] = (state == S0) | (state == S1) | (state == S2);
-	assign r[1] = (state == S3) | (state == S4) | (state == S5);
-	assign r[2] = (state == S6) | (state == S7) | (state == S8);
-	assign r[3] = (state == S9) | (state == S10) | (state == S11);
+    // power a specific row or all rows depending on which state is active
+	assign r[0] = (state == S0) | (state == S1) | (state == S2) | (state == S4) | (state == S5) | (state == S7) | (state == S8) | (state == S10) | (state == S11);
+	assign r[1] = (state == S3) | (state == S1) | (state == S2) | (state == S4) | (state == S5) | (state == S7) | (state == S8) | (state == S10) | (state == S11);
+	assign r[2] = (state == S6) | (state == S1) | (state == S2) | (state == S4) | (state == S5) | (state == S7) | (state == S8) | (state == S10) | (state == S11);
+	assign r[3] = (state == S9) | (state == S1) | (state == S2) | (state == S4) | (state == S5) | (state == S7) | (state == S8) | (state == S10) | (state == S11);
+
+	assign rowPressed[0] = (state == S0) | (state == S1) | (state == S2);
+	assign rowPressed[1] = (state == S3) | (state == S4) | (state == S5);
+	assign rowPressed[2] = (state == S6) | (state == S7) | (state == S8);
+	assign rowPressed[3] = (state == S9) | (state == S10) | (state == S11);
 
     // allow led to change when in the specified state
     assign en = (state == S1) | (state == S4) | (state == S7) | (state == S10);
@@ -77,5 +85,5 @@ module buttonFSM(
 		endcase
 
     // figure out what number is clicked
-	buttonDecoder a1(c,r,s);
+	buttonDecoder a1(colPressed,rowPressed,s);
 endmodule

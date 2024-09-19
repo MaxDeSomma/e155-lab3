@@ -3,7 +3,7 @@
 // mdesomma@g.hmc.edu
 // 9/14/24
 
-// This is a test bench module that tests the segmentSwitcher correctly switched the correct transistor/display on and provided the correct seg output 
+// This is a test bench module that tests the ledController switches the correct transistor/display on and provided the correct seg output
 module ledControllerTB();
  // Set up test signals
 
@@ -27,22 +27,19 @@ initial
 	
 	// test different inputs
 	s = 4'b0100;
-    #13;
-    en =1;
-    #10;
-    en = 0;
-    #7;
+    	#13;
+    	en =1;
+    	#10;
+    	en = 0;
+   	#7;
+    	#50;
+    	s = 4'b0110;
+    	#13;
+    	en =1;
+    	#10;
+    	en = 0;
+    	#7;
 	#50;
-	s = 4'b0110;
-    #13;
-    en =1;
-    #10;
-    en = 0;
-    #7;
-	#50;
-	// s = 4'b0110;
-	// #50;
-	// s = 4'b1001;
-	// #50;
+
  end
 endmodule

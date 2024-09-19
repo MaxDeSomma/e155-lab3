@@ -21,7 +21,7 @@ module buttonDecoder(
 			{4'b0100 , 4'b0001}: s = 4'b0111;
 			{4'b0010 , 4'b0001}: s = 4'b0100;
 			{4'b0001 , 4'b0001}: s = 4'b0001;
-			default: s = 4'b0000;
+			default: s = 4'b1111;
 
 		endcase
     end

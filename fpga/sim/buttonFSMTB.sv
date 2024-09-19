@@ -34,6 +34,8 @@ initial
 	c = 4'b0000;
 	#50;
 	c = 4'b1000;
+	#15
+	c = 4'b1100;
 	#50;
  end
 endmodule

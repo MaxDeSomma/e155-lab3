@@ -20,7 +20,7 @@ module ledController(
                 s1 <= s;
             end
 
-			counter <= counter + 1;
+	counter <= counter + 1;
 			if(counter == 102416) begin
 					counter <= 0;
 					toggle <= ~toggle;

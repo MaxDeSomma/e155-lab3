@@ -24,7 +24,7 @@ module buttonFSMTB();
 
 initial
  begin
-	reset = 1; #27; reset = 0; #13;
+	reset = 1; #27; reset = 0;
 	
 	// test different inputs
 	c = 4'b0000;
@@ -32,6 +32,10 @@ initial
 	c = 4'b0010;
 	#50;
 	c = 4'b0000;
+	#50;
+	c = 4'b1000;
+	#5
+	c = 4'b1100;
 	#50;
  end
 endmodule

@@ -3,74 +3,80 @@ Report for cell lab3_MD
    Instance path: lab3_MD
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        187        100.0
-                               LUTGATE	        109        100.0
+                                 IOLGC	       4.00        100.0
+                                  LUT4	        210        100.0
+                               LUTGATE	        132        100.0
                                 LUTCCU	         78        100.0
+                                 IOREG	          4        100.0
                                  IOBUF	         18        100.0
-                                PFUREG	        103        100.0
+                                PFUREG	        107        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                           lab3_Master	          1        96.3
+                           lab3_Master	          1        95.2
 ---------------------------------------------------
 Report for cell lab3_Master
    Instance path: lab3_MD/a1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        180        96.3
-                               LUTGATE	        102        93.6
+                                 IOLGC	       4.00        100.0
+                                  LUT4	        200        95.2
+                               LUTGATE	        122        92.4
                                 LUTCCU	         78        100.0
-                                PFUREG	        103        100.0
+                                 IOREG	          4        100.0
+                                PFUREG	        107        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                          synchronizer	          1        77.5
+                          synchronizer	          1        78.6
 ---------------------------------------------------
 Report for cell synchronizer
    Instance path: lab3_MD/a1/a2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        145        77.5
-                               LUTGATE	         93        85.3
+                                 IOLGC	       4.00        100.0
+                                  LUT4	        165        78.6
+                               LUTGATE	        113        85.6
                                 LUTCCU	         52        66.7
-                                PFUREG	         77        74.8
+                                 IOREG	          4        100.0
+                                PFUREG	         81        75.7
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                             buttonFSM	          1        77.5
+                             buttonFSM	          1        78.6
 ---------------------------------------------------
 Report for cell buttonFSM
    Instance path: lab3_MD/a1/a2/synced
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        145        77.5
-                               LUTGATE	         93        85.3
+                                  LUT4	        165        78.6
+                               LUTGATE	        113        85.6
                                 LUTCCU	         52        66.7
-                                PFUREG	         77        74.8
+                                PFUREG	         77        72.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                         buttonDecoder	          1        11.8
-                         ledController	          1        32.6
+                         buttonDecoder	          1        15.7
+                         ledController	          1        29.5
 ---------------------------------------------------
 Report for cell ledController
    Instance path: lab3_MD/a1/a2/synced/a4
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         61        32.6
-                               LUTGATE	         35        32.1
+                                  LUT4	         62        29.5
+                               LUTGATE	         36        27.3
                                 LUTCCU	         26        33.3
-                                PFUREG	         39        37.9
+                                PFUREG	         39        36.4
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                          sevenSegment	          1         3.7
+                          sevenSegment	          1         3.3
 ---------------------------------------------------
 Report for cell sevenSegment
    Instance path: lab3_MD/a1/a2/synced/a4/a5
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	          7         3.7
-                               LUTGATE	          7         6.4
+                                  LUT4	          7         3.3
+                               LUTGATE	          7         5.3
 ---------------------------------------------------
 Report for cell buttonDecoder
    Instance path: lab3_MD/a1/a2/synced/a3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         22        11.8
-                               LUTGATE	         22        20.2
+                                  LUT4	         33        15.7
+                               LUTGATE	         33        25.0

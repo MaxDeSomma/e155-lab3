@@ -48,7 +48,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Sep 17 10:45:13 2024
+Thu Sep 19 14:56:19 2024
 
 
 Command Line:  C:\lscc\radiant\2024.1\ispfpga\bin\nt64\synthesis.exe -f lab3_impl_1_lattice.synproj -logfile lab3_impl_1_lattice.srp -gui -msgset C:/Users/mdesomma/Documents/lab3/radiant/lab3/promote.xml 
@@ -192,10 +192,10 @@ INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/lab3_mast
 WARNING <35901209> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/lab3_master.sv(14): expression size 32 truncated to fit in target size 25. VERI-1209
 INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/synchronizer.sv(1): compiling module synchronizer. VERI-1018
 INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(1): compiling module buttonFSM. VERI-1018
-WARNING <35901209> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(34): expression size 32 truncated to fit in target size 25. VERI-1209
+WARNING <35901209> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(35): expression size 32 truncated to fit in target size 25. VERI-1209
 INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/buttondecoder.sv(1): compiling module buttonDecoder. VERI-1018
 INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(1): compiling module ledController. VERI-1018
-WARNING <35901209> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(30): expression size 32 truncated to fit in target size 25. VERI-1209
+WARNING <35901209> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(29): expression size 32 truncated to fit in target size 25. VERI-1209
 INFO <35901018> - synthesis: c:/users/mdesomma/documents/lab3/fpga/src/sevensegment.sv(8): compiling module sevenSegment. VERI-1018
                                                          
 
@@ -279,17 +279,19 @@ INFO <35001775> - synthesis: Safe logic for state machine with register '\a1/a2/
 
 
 CRITICAL <35001747> - synthesis: Bit(s) of register \a1/a2/synced/state_FSM stuck at '0': 15, 14, 13, 12
+INFO <35002039> - synthesis: Special Primitives IFD1P3AZ and OFD1P3AZ for ThunderPlus are synthesized using IOL_B.
 
 
 <A name="lse_area"></A><B><U><big>Area Report</big></U></B>
 
 ################### Begin Area Report (lab3_MD)######################
-Number of register bits => 103 of 5280 (1 % )
+Number of register bits => 107 of 5280 (2 % )
 CCU2 => 39
-FD1P3XZ => 103
+FD1P3XZ => 107
 HSOSC_CORE => 1
 IB => 5
-LUT4 => 104
+IOL_B => 4
+LUT4 => 123
 OB => 13
 ################### End Area Report ##################
 Number of odd-length carry chains : 3
@@ -306,16 +308,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : a1/toggle, loads : 78
-  Net : a1/a2/synced/a4/n485, loads : 30
-  Net : a1/n504, loads : 26
-  Net : a1/a2/synced/n500, loads : 25
-  Net : c_c_2, loads : 19
-  Net : a1/a2/synced/n468, loads : 16
+  Net : a1/toggle, loads : 86
+  Net : a1/a2/synced/buttonPressed, loads : 33
+  Net : a1/a2/synced/a4/n470, loads : 30
+  Net : a1/n490, loads : 26
   Net : a1/a2/synced/state_FSM_illegal, loads : 12
-  Net : a1/a2/synced/n89, loads : 8
-  Net : a1/a2/synced/n87, loads : 8
-  Net : a1/a2/synced/a4/n496, loads : 8
+  Net : a1/a2/synced/oneButtonPressed, loads : 12
+  Net : a1/a2/synced/n89, loads : 11
+  Net : a1/a2/c2[1], loads : 9
+  Net : a1/a2/c2[0], loads : 9
+  Net : a1/a2/synced/n88, loads : 9
 ################### End Clock Report ##################
 
 
@@ -331,13 +333,13 @@ Constraint Summary:
 Total number of design rule violations: 0
 ###################  End DRC Report  ######################
 
-Peak Memory Usage: 87 MB
+Peak Memory Usage: 93 MB
 
 --------------------------------------------------------------
 Total CPU Time: 1 secs 
-Total REAL Time: 0 secs 
+Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: cf6a9655aeda3bac3579473c35abb4c06a4c4775
+Checksum -- synthesis -- netlist: 5da71d7f61085401f1a4d5abd73d5c26ed7b1b5d
 
 
 

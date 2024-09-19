@@ -390,11 +390,11 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(34): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv(35): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
             <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/buttonfsm.sv</Navigation>
-            <Navigation>34</Navigation>
+            <Navigation>35</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -415,11 +415,11 @@
         <Message>
             <ID>35901209</ID>
             <Severity>16</Severity>
-            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(30): </Dynamic>
+            <Dynamic>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv(29): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>25</Dynamic>
             <Navigation>c:/users/mdesomma/documents/lab3/fpga/src/ledcontroller.sv</Navigation>
-            <Navigation>30</Navigation>
+            <Navigation>29</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -446,12 +446,9 @@
             <Dynamic>\a1/a2/synced/state_FSM</Dynamic>
             <Dynamic>15, 14, 13, 12</Dynamic>
         </Message>
-    </Task>
-    <Task name="Export">
         <Message>
-            <ID>1081100</ID>
+            <ID>35002039</ID>
             <Severity>1</Severity>
-            <Dynamic>Bitstream authenticated.</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

@@ -11,7 +11,7 @@ cModel Technology
 dC:/Users/mdesomma/Documents/lab2/simulation
 vbuttonDecoder
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1726353527
+Z1 !s110 1726767829
 !i10b 1
 !s100 ]H^Z[f1Uh>BoNDi>Gc5zT2
 IChToU@9?D3;=U]a?lD2622
@@ -20,14 +20,14 @@ Z2 dC:/Users/mdesomma/Documents/lab3/fpga/sim
 w1726286492
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv
-!i122 150
+!i122 244
 L0 1 30
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 OT;L;2021.4;73
 r1
 !s85 0
 31
-Z5 !s108 1726353527.000000
+Z5 !s108 1726767829.000000
 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoder.sv|
 !s101 -O0
@@ -39,15 +39,15 @@ vbuttonDecoderTB
 R0
 R1
 !i10b 1
-!s100 Z]cz99C9]nLP`h1hPl_E61
-Io[^BaE`_]7:Q3l1:=Gkoc2
+!s100 M>hMza[jG<9DnCcSib?a51
+IX@z3j9gVV=TMXTOY34VLf3
 S1
 R2
-w1726285644
+w1726763362
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoderTB.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/buttonDecoderTB.sv
-!i122 149
-L0 7 34
+!i122 243
+Z8 L0 7 37
 R3
 R4
 r1
@@ -65,15 +65,15 @@ vbuttonFSM
 R0
 R1
 !i10b 1
-!s100 mPV^k?e[cPhN?=8k1Na7N2
-ICXMl]mICcfE=`4NI:RhU22
+!s100 XV1dK`XaQ4l92akA?m4Do3
+I2z?TEPAIZ[c<Ij9W@M?5W3
 S1
 R2
-w1726344434
+w1726767654
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSM.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSM.sv
-!i122 148
-L0 1 81
+!i122 242
+L0 1 89
 R3
 R4
 r1
@@ -89,23 +89,23 @@ R7
 nbutton@f@s@m
 vbuttonFSMTB
 R0
-Z8 !s110 1726353528
+R1
 !i10b 1
-!s100 1OhJEOS<;@X`V2A3JL^iC2
-IU_SLi6mo3_d[7[lmo?BXD2
+!s100 Dl`mgg_:V[RmWJCAIgYFg1
+I_3[VJH?S]Y_nRfhZ:iiVK0
 S1
 R2
-w1726287635
+w1726767826
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv
-!i122 151
-L0 7 33
+!i122 245
+L0 7 35
 R3
 R4
 r1
 !s85 0
 31
-Z9 !s108 1726353528.000000
+R5
 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/buttonFSMTB.sv|
 !s101 -O0
@@ -122,18 +122,18 @@ I>o35k531SGRm[I`4NCllH0
 S1
 R2
 w1726345309
-Z10 8C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv
-Z11 FC:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv
+Z9 8C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv
+Z10 FC:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv
 !i122 132
-L0 7 37
+R8
 R3
 R4
 r1
 !s85 0
 31
 !s108 1726345487.000000
-Z12 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv|
+Z11 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv|
+Z12 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/ledControllerTB.sv|
 !s101 -O0
 !i113 1
 R6
@@ -141,23 +141,23 @@ R7
 nled@controler@t@b
 vledController
 R0
-R8
+R1
 !i10b 1
-!s100 DOj65inF32i11b3i?1>ZQ2
-IScSO4zH:lRWV>nbNoAB[X2
+!s100 nN=Ze5GAYnoHI0Si3g]nN1
+IcY>9A86iPoCCII?VhOd][1
 S1
 R2
-w1726353003
+w1726764932
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv
-!i122 152
+!i122 246
 L0 1 40
 R3
 R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/ledController.sv|
 !s101 -O0
@@ -167,25 +167,25 @@ R7
 nled@controller
 vledControllerTB
 R0
-R8
+R1
 !i10b 1
-!s100 7SR`6Mk0gNj<J8B:<N2Z^3
-IB;M=zz1S^95KJj<4R]V1D3
+!s100 baR>?1k[6QojTP>TLBMXl2
+IS;Ee8gn]OOEfTN[RXiOFT3
 S1
 R2
-w1726353524
+w1726764717
+R9
 R10
-R11
-!i122 153
-L0 7 42
+!i122 247
+L0 7 39
 R3
 R4
 r1
 !s85 0
 31
-R9
+R5
+R11
 R12
-R13
 !s101 -O0
 !i113 1
 R6
@@ -193,7 +193,7 @@ R7
 nled@controller@t@b
 vsevenSegment
 R0
-R8
+R1
 !i10b 1
 !s100 V]`38eAAd[2dkdl[:5aGU1
 I5Gmfn82oL[lM3>TnVKOg70
@@ -202,14 +202,14 @@ R2
 w1726342295
 8C:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv
 FC:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv
-!i122 154
+!i122 248
 L0 8 28
 R3
 R4
 r1
 !s85 0
 31
-R9
+R5
 !s107 C:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/mdesomma/Documents/lab3/fpga/sim/sevenSegment.sv|
 !s101 -O0

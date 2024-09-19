@@ -1,14 +1,15 @@
 ----------------------------------------------------------------------
 Report for cell lab3_MD.TECH
-Register bits:  103 of 5280 (1.951%)
+Register bits:  107 of 5280 (2.027%)
 I/O cells:      18
                                   Cell usage:
                                cell     count   Res Usage(%)
                                CCU2        39          100.0
-                            FD1P3XZ       103          100.0
+                            FD1P3XZ       107          100.0
                          HSOSC_CORE         1          100.0
                                  IB         5          100.0
-                               LUT4       104          100.0
+                              IOL_B         4          100.0
+                               LUT4       123          100.0
                                  OB        13          100.0
 SUB MODULES
                       buttonDecoder         1
@@ -17,71 +18,73 @@ SUB MODULES
                       ledController         1
                        sevenSegment         1
                        synchronizer         1
-                              TOTAL       271
+                              TOTAL       298
 ----------------------------------------------------------------------
 Report for cell lab3_Master.v1
 Instance Path : a1
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        39          100.0
-                            FD1P3XZ       103          100.0
-                               LUT4       104          100.0
+                            FD1P3XZ       107          100.0
+                              IOL_B         4          100.0
+                               LUT4       123          100.0
 SUB MODULES
                       buttonDecoder         1
                           buttonFSM         1
                       ledController         1
                        sevenSegment         1
                        synchronizer         1
-                              TOTAL       251
+                              TOTAL       278
 ----------------------------------------------------------------------
 Report for cell synchronizer.v1
 Instance Path : a1.a2
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        26           66.7
-                            FD1P3XZ        77           74.8
-                               LUT4        95           91.3
+                            FD1P3XZ        81           75.7
+                              IOL_B         4          100.0
+                               LUT4       114           92.7
 SUB MODULES
                       buttonDecoder         1
                           buttonFSM         1
                       ledController         1
                        sevenSegment         1
-                              TOTAL       202
+                              TOTAL       229
 ----------------------------------------------------------------------
 Report for cell buttonFSM.v1
 Instance Path : a1.a2.synced
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        26           66.7
-                            FD1P3XZ        77           74.8
-                               LUT4        95           91.3
+                            FD1P3XZ        77           72.0
+                               LUT4       114           92.7
 SUB MODULES
                       buttonDecoder         1
                       ledController         1
                        sevenSegment         1
-                              TOTAL       201
+                              TOTAL       220
 ----------------------------------------------------------------------
 Report for cell ledController.v1
 Instance Path : a1.a2.synced.a4
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        13           33.3
-                            FD1P3XZ        39           37.9
-                               LUT4        35           33.7
+                            FD1P3XZ        39           36.4
+                               LUT4        36           29.3
 SUB MODULES
                        sevenSegment         1
-                              TOTAL        88
+                              TOTAL        89
 ----------------------------------------------------------------------
 Report for cell sevenSegment.v1
 Instance Path : a1.a2.synced.a4.a5
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4         7            6.7
+                               LUT4         7            5.7
                               TOTAL         7
 ----------------------------------------------------------------------
 Report for cell buttonDecoder.v1
 Instance Path : a1.a2.synced.a3
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        24           23.1
-                              TOTAL        24
+                               LUT4        34           27.6
+                              TOTAL        34
