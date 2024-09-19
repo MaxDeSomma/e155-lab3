@@ -1,3 +1,3 @@
 #E155 Lab 2
 
-This repository includes code to designed to run time multiplexing on a FPGA that allows us to drive two seven segment displays using only 7 output pins
+This repository includes code to designed to run a dual seven segment display that shows which hexadeciaml number is being pressed on a 4x4 keypad.
